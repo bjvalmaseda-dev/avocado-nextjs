@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 
 const Home = () => {
-  const [productList, setProductList] = useState([]);
+  const [productList, setProductList] = useState<TProduct[]>([]);
 
   useEffect(() => {
     fetch("/api/avo")
