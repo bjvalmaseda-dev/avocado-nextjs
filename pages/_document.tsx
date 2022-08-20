@@ -1,17 +1,22 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-export default function Document() {
-  return (
-    <Html>
-      <Head >
-        {/* favicons */}
-        {/* webfonts */}
-        {/* external stylesheets */}
+class MyDocument extends Document {
+  render() {
+    return (
+      <Html lang="en">
+        <Head>
+          {/** FavIcon */}
+          {/** WebFont */}
+          {/** stylesheets */}
+          {/** scripts */}
         </Head>
-      <body>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
-  )
+        <body className="my-body-class">
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    )
+  }
 }
+
+export default MyDocument
