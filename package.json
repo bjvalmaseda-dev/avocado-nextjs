@@ -14,8 +14,10 @@
   "dependencies": {
     "@types/cors": "^2.8.12",
     "cors": "^2.8.5",
+    "express": "^4.18.1",
     "isomorphic-unfetch": "^3.1.0",
     "next": "^12.2.5",
+    "nextjs-cors": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "semantic-ui-css": "^2.4.1",
