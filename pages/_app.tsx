@@ -2,6 +2,7 @@ import { AppProps } from "next/app";
 import "semantic-ui-css/semantic.min.css";
 import "../global.css";
 import { NextWebVitalsMetric } from "next/app";
+import Head from "next/head";
 
 import CartProvider from "@store/Cart";
 
@@ -14,9 +15,15 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   // Aditional layout
   // Manejar errores - componentDidCatch
   return (
-    <CartProvider>
-      <Component {...pageProps} />
-    </CartProvider>
+    <>
+      <Head>
+        <link rel="shortcut icon" href="favicon.png" type="image/png" />
+        <title>Avocados Store</title>
+      </Head>
+      <CartProvider>
+        <Component {...pageProps} />
+      </CartProvider>
+    </>
   );
 };
 
