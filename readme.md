@@ -18,7 +18,7 @@
     <a href="https://github.com/bjvalmaseda-dev/avocado-nextjs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://avocado-store.bjvalmaseda.xyz">View Demo</a>
+    <a href="https://avocado-store.bjvalmaseda.com">View Demo</a>
     ·
     <a href="https://github.com/bjvalmaseda-dev/avocado-nextjs/issues">Report Bug</a>
     ·
@@ -56,9 +56,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Avocado Store Home Screen Shot][home-screenshot]](https://example.com)
-[![Avocado Store Product Screen Shot][product-screenshot]](https://example.com)
-[![Avocado Store Cart Screen Shot][cart-screenshot]](https://example.com)
+![Avocado Store Home Screen Shot][home-screenshot]
+![Avocado Store Product Screen Shot][product-screenshot]
+![Avocado Store Cart Screen Shot][cart-screenshot]
 
 The project is an web store app build with [Next JS][Next-url]. You can visualize a product, send to the cart and delete from the cart.
  
